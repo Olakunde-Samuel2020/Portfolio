@@ -308,9 +308,7 @@ form a{
         justify-content: center;
         text-align: center;
     }
-    .flex-f-links {
-        margin-left:-20px;
-    }
+    
     .flex-f-links a img{
         margin:  0 5px;
     }
