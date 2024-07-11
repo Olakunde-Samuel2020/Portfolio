@@ -1,0 +1,326 @@
+body{
+    padding:0;
+    margin:0;
+    background-color:#151515;
+}
+header{
+    color: #ffffff;
+     padding: 20px 160px;
+     position:relative;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.navlinks a img{
+    width: 20px;
+    margin: 0 10px;
+}
+.hero{
+    display: flex;
+    padding-bottom:100px ;
+    border-bottom: 1px solid #e3e3e3;
+}
+.hero-t-header h2{
+    font-size: 70px;
+}
+.hero-t-header .underline{
+    border-bottom: 2px solid #4de09f;
+}
+.hero-img{
+    position: absolute;
+    right: 150px;
+    height: 800px;
+    top:0;
+    z-index: -2;
+}
+.hero-t-body{
+    margin-top: -40px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    color: #9c9c9c;
+}
+.hero-button a{
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 2px solid #4de09f;
+    padding-bottom: 10px;
+}
+.languages-known{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px 160px;
+    color: #ffffff;
+}
+.languages-known div h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.languages-known div h6{
+    font-weight:300;
+    margin-top: -20px;
+}
+.projects{
+    color: #ffffff;
+    padding: 20px 160px 90px 160px;
+}
+.flex-button{
+    display: none;
+}
+.projects .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.projects .title h2{
+    font-size: 70px;
+}
+.hero-button .contact{
+    font-size: 15px;
+}
+.p-display{
+    display: grid;gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.projects .p-display div img{
+    width: 400px;
+}
+.projects .p-display div h5{
+    font-size: 20px;
+    margin-top: -1px;
+}
+.flex {
+    display:flex;
+    align-items: center;
+    margin-left: -20px;
+    margin-top: -21px;
+}
+.flex p{
+    font-size: smaller;
+    margin: 0 20px;
+}
+footer{
+    background-color:#242424 ;
+    padding: 20px 160px;
+    color: #ffffff;
+}
+.contact-us{
+    padding: 30px 0 80px 0;
+    display: flex;
+    align-items:start;
+    margin: 0 20px;
+    justify-content: space-between;
+    border-bottom:1px solid #9c9c9c;
+}
+.contact-text h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.contact-text p{
+    font-size: 20px;
+}
+form input, .message{
+    width: 400px;
+    margin: 20px 0;
+    padding:5px 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9c9c9c;
+}
+.message{
+    height: 50px;
+}
+form a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 10px;
+    border-bottom:2px solid #4de09f;
+    margin-left:250px;
+    
+}
+.flex-f{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.flex-f-links{
+    display: flex;
+}
+.flex-f-links img{
+    margin: 0 15px;
+    width: 30px;
+}
+@media (max-width:1024px){
+    header{
+        padding: 0;
+        padding: 0 20px;
+    }
+    .hero-img{
+        right: 0;
+    }
+    .languages-known{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projects{
+        color: #ffffff;
+        padding: 5px 80px 35px 80px;
+    }
+    .projects .p-display div img{
+        width: 300px;
+    }
+    .projects .p-display div h5{
+        font-size: 20px;
+        margin-top: -1px;
+    }
+    .flex-button{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        margin:0  -10px;
+    }
+    .flex-button a{
+        text-decoration: none;
+    color: #ffffff;
+    border-bottom: 2px solid #4de09f;
+    padding-bottom: 10px;
+    margin: 20px 10px;
+    
+    }
+    
+    .contact-us{
+        padding: 30px 0 80px 0;
+        display:block;
+        align-items:center;
+        justify-content:center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contact-t-header{
+        text-align: center;
+       
+    }
+    .content-t-body{
+        text-align: center;
+    }
+}
+@media (max-width:765px){
+    .navbar{
+        padding-top:10px ;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    .hero-img{
+        position: absolute;
+        right: 95px;
+        top: 0;
+    }
+    .hero-t-header h2{
+        font-size: 40px;
+        text-align: center;
+        
+    }
+    .hero-t-header .underline{
+        border-bottom: 2px solid #4de09f;
+    }
+    .hero-t-body{
+        margin-top: -20px;
+        font-size: 15px;
+        margin-bottom: 50px;
+        color: #9c9c9c;
+        text-align: center;
+    }
+    .hero-button a{
+        text-decoration: none;
+        color: #ffffff;
+        border-bottom: 2px solid #4de09f;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .hero{
+        text-align: center;
+        align-items: center;
+        display: block;
+    }
+    .hero-text{
+        margin-top: 400px;
+    }
+    .languages-known{
+        text-align: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .p-display{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact-us{
+        padding: 10px 0 60px 0;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin:0 -150px;
+    }
+    .contact-text h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    
+    .contact-text p{
+        font-size:10px;  
+    }
+    
+    form{
+        margin: 0;
+        padding: 0;
+    }
+    form input, .message{
+        width: 200px;
+        margin: 20px auto;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #9c9c9c;
+        
+    }
+    .message{
+        height: 50px;
+        margin: 0 0;
+    }
+    
+    form a{
+        text-decoration: none;
+        color: #ffffff;
+        padding-bottom: px;
+        border-bottom:2px solid #4de09f;
+        margin-left: -20px;
+    }
+    .flex-f{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .flex-f-links {
+        margin-left:-20px;
+    }
+    .flex-f-links a img{
+        margin:  0 5px;
+    }
+    .projects .title h2{
+        font-size: 30px;
+    }
+    .hero-button .contact{
+        font-size: 10px;
+    }
+    label{
+        margin-left: -120px;
+    }
+}
